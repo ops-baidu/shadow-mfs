@@ -12,6 +12,8 @@ Notice
 for master/client, you should configure using --disable-mfstest --disable-mfschunkserver
 for chunkserver, please use open source Moose FS code version 1.6.17
 
+you should start a mission like rsync : copy master's sessions.mfs and mfsexports.cfg to slave
+
 Basic Installation
 ==================
 
