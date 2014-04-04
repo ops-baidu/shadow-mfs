@@ -1,3 +1,3 @@
 #!/bin/bash
-svn_version=`svn info| sed -n '5p' | awk '{print $2}'`
-echo "#define SVNVER $svn_version" > mfscommon/version.h
+#svn_version=version: 
+echo "#define SVNVER 8313" > mfscommon/version.h
