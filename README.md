@@ -27,8 +27,9 @@ CHUNK_HLIST_SIZE = NUM //chunk hlist for chunkserver manage in master
 
 **Slave different with master as follow:**
 > MASTER_STATE = 0  
-MASTER_HOST = masterip 
-SLA_SYNC_WORKER_HOST_1 = masterip
+MASTER_HOST = masterip  
+SLA_SYNC_WORKER_HOST_1 = masterip  
+SYNC_THREAD_LISTEN_PORT = slaveport //which is same as SLA_SYNC_WORKER_HOST_1
 
 **Using keepalive:**
 > Master keepalive prority should bigger than slave, you should also assign the vip same as master.cfg
